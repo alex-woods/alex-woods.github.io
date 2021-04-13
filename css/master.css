@@ -46,4 +46,6 @@ p {
 .mountain {
   width: 100%;
   padding-top: 50px;
+  position: relative;
+  bottom: -4px;
 }
