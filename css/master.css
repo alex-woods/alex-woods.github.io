@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  color: #f6f5f5;
+  font-family: 'Mr De Haviland', cursive;
+  font-size: 8rem;
+  margin: 0;
+}
+
+h2 {
+  color: #d3e0ea;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+
+p {
+  color: #35383d;
+  font-family: 'Roboto', sans-serif;
+}
+
+.intro {
+  background-color: #1687a7;
+  margin: 0;
+  padding-top: 100px;
+  position: relative;
+}
+
+.left-cloud {
+  width: 10%;
+  position: absolute;
+  top: 400px;
+  left: 10%;
+
+}
+
+.right-cloud {
+  width: 15%;
+  position: absolute;
+  top: 250px;
+  right:5%;
+}
+
+.mountain {
+  width: 100%;
+  padding-top: 50px;
+}
