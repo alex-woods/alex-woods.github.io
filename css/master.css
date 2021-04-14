@@ -27,17 +27,17 @@ h1 {
 
 h2 {
   color: #d3e0ea;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h3 {
   color: #276678;
-  font-size: 2.5rem;
+  font-size: 3rem;
 }
 
 p {
   color: #35383d;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 a {
@@ -75,7 +75,7 @@ a {
 }
 
 .profile-pic {
-  width: 150px;
+  width: 300px;
   padding-bottom: 20px;
 }
 
@@ -84,21 +84,22 @@ a {
 }
 
 .about-me {
-  width: 550px;
+  width: 600px;
   margin: 0 auto;
 }
 
 .skill-row {
   display: inline-block;
-  width: 300px;
+  width: 600px;
   vertical-align: top;
+  margin: 0 15px;
 }
 
 .skill-icon {
-  width: 150px;
+  width: 200px;
 }
 
 .contact-info {
-  width: 550px;
+  width: 600px;
   margin: 0 auto;
 }
