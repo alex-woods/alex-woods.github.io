@@ -5,64 +5,89 @@
   <meta charset="utf-8">
   <title>Alexander Woods</title>
   <link rel="icon" href="images/favicons/favicon.ico">
+  <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap&family=Mr+De+Haviland&display=swap" rel="stylesheet"> -->
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/8a573f4f20.js" crossorigin="anonymous"></script>
+
+  <!-- custom styles -->
   <link rel="stylesheet" href="css/master.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@300&display=swap&family=Mr+De+Haviland&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <div class="intro">
-    <img class="left-cloud" src="images/cloud.png" alt="cloud">
-    <h1>I'm Alex,</h1>
-    <h2>a developer and dad.</h2>
-    <h2>I enjoy a challenge.</h2>
-    <img class="right-cloud" src="images/cloud.png" alt="cloud">
-    <img class="mountain" src="images/mountain.png" alt="little person climbing a big mountain">
-  </div>
+  <section id="title">
+    <div class="container-fluid">
+      <!-- nav bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">aw</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <div class="about">
-    <h3>About Me</h3>
-    <img class="profile-pic" src="images/alex.png" alt="profile photo of Alex">
-    <p class="about-me">Howdy, I'm Alex. I make money developing software, but I am much more than just that. I'm also a father, husband, entrepeneur, and outdoor enthusiast. </p>
-  </div>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
 
-  <hr>
-
-  <div class="skills">
-    <h3>Skills</h3>
-    <div class="skill-row">
-      <img class="skill-icon" src="images/coding.png" alt="coding icon">
-      <p class="skill-text">I can write code! I have over 5 years of experience developing a wide array of software, such as low level embedded C, C++ for SlAM, python for scripting, and java for mobile and web development. </p>
+      <!-- title -->
+      <h1 class="title">I'm Alex, a developer and dad. I enjoy a challenge.</h1>
+      <img class="left-cloud" src="images/cloud.png" alt="cloud">
+      <img class="right-cloud" src="images/cloud.png" alt="cloud">
+      <!-- <img class="mountain" src="images/mountain.png" alt="little person climbing a big mountain"> -->
+      <div class="mountain"></div>
     </div>
-    <div class="skill-row">
-      <img class="skill-icon" src="images/robot.png" alt="robot icon">
-      <p class="skill-text">I can build robots! I have always had a passion for building things, and robots are no exception. I love the interaction of the software and hardware, and it's thrilling to have your code enable a robot to move about on its own!</p>
+  </section>
+<!-- 
+
+  <section id="about">
+    <div class="about">
+      <h3>About Me</h3>
+      <img class="profile-pic" src="images/alex.png" alt="profile photo of Alex">
+      <p class="about-me">Howdy, I'm Alex. I make money developing software, but I am much more than just that. I'm also a father, husband, entrepeneur, and outdoor enthusiast. </p>
     </div>
-    <div class="skill-row">
-      <img class="skill-icon" src="images/climbing.png" alt="climbing icon">
-      <p class="skill-text">I can climb mountains! Some of my favorite things to do are outsite - I love hiking, mountain biking, rock climbing, backcountry skiing... if it's an outdoor activity, count me in!</p>
+  </section>
+
+  <section id="skills">
+    <div class="skills">
+      <h3>Skills</h3>
+      <div class="skill-row">
+        <i class="fas fa-code"></i>
+        <p class="skill-text">I can write code! I have over 5 years of experience developing a wide array of software, such as low level embedded C, C++ for SlAM, python for scripting, and java for mobile and web development. </p>
+      </div>
+      <div class="skill-row">
+        <i class="fas fa-robot"></i>
+        <p class="skill-text">I can build robots! I have always had a passion for building things, and robots are no exception. I love the interaction of the software and hardware, and it's thrilling to have your code enable a robot to move about on
+          its own!</p>
+      </div>
+      <div class="skill-row">
+        <i class="fas fa-mountain"></i>
+        <p class="skill-text">I can climb mountains! Some of my favorite things to do are outsite - I love hiking, mountain biking, rock climbing, backcountry skiing... if it's an outdoor activity, count me in!</p>
+      </div>
+      <div class="skill-row">
+        <i class="fas fa-baby"></i>
+        <p class="skill-text">With a little bit of luck and a lot of help from my amanzing wife, I have kept my little one alive! So far, so good. I love spending time with my daughter - my favorite activity to do with her so far is dig massive "hot
+          tubs" at the beach</p>
+      </div>
     </div>
-    <div class="skill-row">
-      <img class="skill-icon" src="images/dad.png" alt="dad icon">
-      <p class="skill-text">With a little bit of luck and a lot of help from my amanzing wife, I have kept my little one alive! So far, so good. I love spending time with my daughter - my favorite activity to do with her so far is dig massive "hot tubs" at the beach</p>
+  </section>
+
+  <section id="contact">
+    <div class="contact">
+      <h3>Contact</h3>
+      <p class="contact-info">I'm currently working on building a business, but I am occasionally available for freelance work. If you have a hard problem to solve and would like to collaborate, let's chat!</p>
     </div>
-  </div>
+  </section> -->
 
-  <hr>
-
-  <div class="contact">
-    <h3>Contact</h3>
-    <p class="contact-info">I'm currently working on building a business, but I am occasionally available for freelance work. If you have a hard problem to solve and would like to collaborate, let's chat!</p>
-  </div>
-
-</body>
-
-<footer>
-  <div>
-    Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-    <a href="https://www.freepik.com/vectors/travel">Travel vector created by macrovector - www.freepik.com</a>
-  </div>
-
-</footer>
 
 </html>

@@ -1,105 +1,52 @@
-body {
-  background-color: #f6f5f5;
-  font-family: 'Roboto', sans-serif;
-  margin: 0;
+.container-fluid {
+  padding: 3% 15% 0;
+}
+
+#title {
+  background-color: #00adb5;
   text-align: center;
-}
-
-div {
+  vertical-align: middle;
   position: relative;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 500px;
 }
 
-hr {
-  border: 10px dotted #1687a7;
-  border-bottom: 0;
-  width: 5%;
+.navbar {
+  padding: 0;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.title {
+  width: 50%;
+  margin: 4rem auto;
+}
+
+.mountain {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
   margin: 0 auto;
+  background-image: url('../images/mountain.png');
+  background-repeat: no-repeat;
+  background-size: 1300px;
+  background-position: center;
 }
 
-h1 {
-  color: #f6f5f5;
-  font-family: 'Mr De Haviland', cursive;
-  font-size: 8rem;
-  margin: 0;
-}
-
-h2 {
-  color: #d3e0ea;
-  font-size: 2.5rem;
-}
-
-h3 {
-  color: #276678;
-  font-size: 3rem;
-}
-
-p {
-  color: #35383d;
-  font-size: 2rem;
-}
-
-a {
-  color: #35383d;
-  text-decoration: none;
-}
-
-.intro {
-  background-color: #1687a7;
-  margin: 0;
-  padding-top: 100px;
-  padding-bottom: 0;
-  position: relative;
+.right-cloud {
+  width: 12%;
+  position: absolute;
+  right: 10%;
+  bottom: 60%;
 }
 
 .left-cloud {
   width: 10%;
   position: absolute;
-  top: 400px;
   left: 10%;
-}
-
-.right-cloud {
-  width: 15%;
-  position: absolute;
-  top: 250px;
-  right:5%;
-}
-
-.mountain {
-  width: 100%;
-  padding-top: 50px;
-  position: relative;
-  bottom: -4px;
-}
-
-.profile-pic {
-  width: 300px;
-  padding-bottom: 20px;
-}
-
-.about {
-  padding-bottom: 50px;
-}
-
-.about-me {
-  width: 600px;
-  margin: 0 auto;
-}
-
-.skill-row {
-  display: inline-block;
-  width: 600px;
-  vertical-align: top;
-  margin: 0 15px;
-}
-
-.skill-icon {
-  width: 200px;
-}
-
-.contact-info {
-  width: 600px;
-  margin: 0 auto;
+  bottom: 50%;
 }
